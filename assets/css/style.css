@@ -42,8 +42,68 @@ h2{
     color: #39a6b2;
 }
 
+
 body {
     font-family: Helvitica, Arial, sans-serif;
+    color: #39a6b2;
+}
+
+/* Hero Style Start*/
+.hero {
+    <!-- fix the URL to link to appropriate file>
+    background-image:"./assets/images/hero-bg.jpg";
+    height: 600px;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+/* adding 'relative' keeps the form above the header sections*/
+/* Hero Style end*/
+.hero-form{
+    font-color: #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width:500px;
+    border: solid 3px #024e76;
+    color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+.hero-form p{
+    margin: 5px 0 15px 0;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size:16px;
+}
+
+.hero-form h3{
+    font-size:24px;
+    margin:0;
+}
+
+.form-input{
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15 px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+section {
+    padding: 60px;
 }
 
 footer {
