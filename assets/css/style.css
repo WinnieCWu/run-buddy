@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Helvitica, Arial, sans-serif;
+    color: #39a6b2;
+}
+
 /* apply styles to <header>*/
 header {
     padding: 20px 35px;
@@ -19,7 +24,7 @@ header h1 {
 }
 
 header a{
-    text-decoration:none;
+    text-decoration: none;
     color: #fce138;
 }
 
@@ -38,20 +43,9 @@ header nav ul li a{
     font-size: 22px;
 }
 
-h2{
-    color: #39a6b2;
-}
-
-
-body {
-    font-family: Helvitica, Arial, sans-serif;
-    color: #39a6b2;
-}
-
 /* Hero Style Start*/
 .hero {
-    <!-- fix the URL to link to appropriate file>
-    background-image: "./Desktop/projects/run-buddy/assets/images/hero-bg.jpg";
+    background-image: url('../images/hero-bg.jpg');
     height: 600px;
     background-size: cover;
     background-position:center;
@@ -59,6 +53,7 @@ body {
 }
 /* adding 'relative' keeps the form above the header sections*/
 /* Hero Style end*/
+
 .hero-form{
     font-color: #024e76;
     background-color: #fce138;
@@ -208,11 +203,52 @@ section {
 .text-right {
     text-align: right;
 }
+
 footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
 }
+
+.contact {
+    background-color: #024e76;
+    text-align: center;
+}
+
+.contact h2{
+    color: #fce138;
+}
+
+.contact-info div{
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin 30px 0 0 60px;
+    color: white;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+
+.contact-info h3{
+    color: #fce138;
+    font-size:32px;
+}
+
+.contact-info p, .contact-info address{
+    margin:20px 0;
+    line-height:1.5;
+    font-size: 20px;
+    font-size:normal;
+}
+
+.contact-info a{
+    color:#fce138;
+}
+
 
 footer h2{
     display: inline;
