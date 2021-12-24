@@ -12,3 +12,5 @@ https://winniecwu.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Winnie Wu
+
+### ©️2019 Run Buddy, Inc 
