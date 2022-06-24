@@ -1,7 +1,7 @@
 # Run Buddy
 
 ## Purpose
-A website that offers fitness training services.
+An attractive and functional website that is mobile-responsive and offers fitness training services where users can meet trainers and companies can capture leads from prospective customers.
 
 ## Built with
 * HTML
@@ -13,4 +13,4 @@ https://winniecwu.github.io/run-buddy/
 ## Contribution
 Made with ❤️ by Winnie Wu
 
-### ©️2019 Run Buddy, Inc 
+### ©️2021 Run Buddy, Inc 
